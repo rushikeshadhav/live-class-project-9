@@ -11,3 +11,6 @@
 
 ## Live link
 [Link](https://storied-gelato-4e7974.netlify.app/)
+
+
+![screenshot (9)](https://user-images.githubusercontent.com/74168885/181815643-87cca174-5c21-48fc-a6ee-98e49985fb59.png)
