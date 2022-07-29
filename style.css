@@ -1,0 +1,334 @@
+/* POPPINS FONT FAMILY */
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap"); */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --blue: #4517fe;
+}
+
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-color: var(--blue);
+  position: relative;
+  height: 60vh;
+}
+
+nav {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  color: #fff;
+}
+
+.nav-item {
+  margin: 0 20px;
+}
+
+.nav-item-active {
+  background-color: #fff;
+  color: var(--blue);
+  padding: 5px;
+  border-radius: 2px;
+  /* font-weight: 600; */
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.logo {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.header-text {
+  position: absolute;
+  top: 150px;
+  left: 50px;
+  color: #fff;
+}
+
+.header-text h2 {
+  font-size: 30px;
+}
+
+.header-text p {
+  margin-top: 10px;
+}
+
+.header-image {
+  position: absolute;
+  top: 70px;
+  right: 0;
+}
+
+.container {
+  background-color: #f8f8fa;
+}
+
+.companies {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 60px;
+  width: 600px;
+}
+
+.company-items {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.api {
+  margin: 50px 60px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f8f8fa;
+  height: 220px;
+  width: 220px;
+  padding: 0 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.card-logo {
+  height: 50px;
+  width: 50px;
+}
+
+.card-head {
+  margin-top: 15px;
+}
+
+.card-active {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  height: 220px;
+  width: 220px;
+  padding: 0 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.card-head-active {
+  margin-top: 15px;
+  color: var(--blue);
+}
+
+.card-body {
+  margin-top: 10px;
+}
+
+.blog-heading {
+  margin: 50px 60px;
+}
+
+.blog-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 50px 60px;
+}
+
+.blog-card {
+  position: relative;
+  width: 650px;
+  height: 287px;
+  background-color: #fff;
+  border-top-left-radius: 55px;
+  border-bottom-left-radius: 12px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.blog-image {
+  position: absolute;
+}
+
+.blog-content {
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  left: 300px;
+  top: 30px;
+}
+
+.blog-content h6 {
+  color: var(--blue);
+}
+
+.blog-content h3 {
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.blog-bottom {
+  position: absolute;
+  top: 250px;
+  left: 330px;
+}
+
+.blog-author {
+  position: absolute;
+  top: 130px;
+  left: 200px;
+  width: 123px;
+  z-index: 1;
+}
+
+.faq-section {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  background-color: #e9edff;
+}
+
+.faq-content {
+  margin: 50px 60px;
+
+}
+
+.faq-content h2 {
+  font-size: 50px;
+}
+
+.faq-content h4 {
+  color: #3d3f44;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.faq-content h5 {
+  font-weight: 600;
+  margin-top: 20px;
+  font-size: 22px;
+}
+
+.faq-content button {
+  background-color: #5a31fc;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.faq-image img {
+  height: 100%;
+  /* overflow: hidden; */
+}
+
+.download-section {
+  display: flex;
+  flex-direction: row;
+  padding: 50px 60px;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 150px;
+}
+
+.download-content {
+  margin: auto 0;
+}
+
+.download-content span {
+  font-weight: 300;
+}
+
+.download-email {
+  margin: auto 0;
+}
+
+.download-email form {
+  display: flex;
+  flex-direction: row;
+  background-color: #e9edff;
+  width: 700px;
+  height: 60px;
+  border-radius: 40px;
+}
+
+.download-email input {
+  padding: 20px;
+  width: 400px;
+  height: 20px;
+  border: none;
+  background-color: #e9edff;
+  margin: auto;
+}
+
+.download-email button {
+  height: 50px;
+  width: 200px;
+  border-radius: 25px;
+  border: none;
+  color: #fff;
+  background-color: #5a31fc;
+  margin: auto 7px;
+  cursor: pointer;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: var(--blue);
+  padding: 50px 60px;
+  color: #fff;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-top: 40px;
+}
+
+.list li {
+  margin: 0 20px;
+}
+
+.logos-list {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  list-style: none;
+  /* margin-right: 40px; */
+  /* padding-right: 10px; */
+}
+
+ .logos-list li {
+  margin: 0 20px;
+} 
+
+.footer-logo-list {
+  width: 210px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-right: 0;
+  /* background-color: red; */
+}
